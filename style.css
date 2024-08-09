@@ -1,4 +1,4 @@
-body{
+ body{
     margin: 0px;
     }
 .header{
@@ -62,8 +62,8 @@ i{
 }
 .brands{
     background-color: black;
-    width: 100%;
-    height: 100vh;
+    width:100%;
+    height: 60vh;
     color: white;
     text-align: center;
     margin-top: -20px;
@@ -74,6 +74,7 @@ i{
  
     font-size: 60px;
     font-family: futurak;
+    margin-top: 40px;
 }
 .p1{
     font-size: 45px;
@@ -124,4 +125,74 @@ i{
   margin-top:170px;
   border-radius: 20px;
   color: #ffffff;
+ }
+ .franchises{
+      height: 200vh;
+      width: 100%;
+      background-color: #18191c;
+     margin-top: -55px;
+      
+      
+ }
+ #franchises-heading{
+    height: 198px ;
+    width: 100%;
+   font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:90px;
+    font-family: 'Holtwood One SC';    ;
+ }
+ .franchises-gellary,.franchises-gellary1,.franchises-gellary3{
+    height: 394px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+   
+ }
+ #picss,#picss1{
+    height:100%;
+    width: 30%;
+    margin-left: 300px;
+    border-radius: 5px;
+    
+ }
+ small{
+        font-family: 'apercu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.48em;
+        text-transform: uppercase;
+        color: #ED1C24;
+        margin-bottom: 8px;
+        display: block;
+        margin-top: 10px;
+    
+ }
+
+ #h3-franchises{
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+ }
+
+ #icon, p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: rgba(242, 241, 241, 0.7);
+    background-color: transparent;
+    padding-top: 30px;
  }
