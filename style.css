@@ -1,421 +1,422 @@
- body, html {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header{
-    border: 2px solid black;
-    background-color: black; 
-    height: 92px;  
+border: 2px solid black;
+background-color: black; 
+height: 92px;  
 }
 img{
-    width: 180px;
-    margin-left: 100%;
-    padding-top: 5px;
+width: 180px;
+margin-left: 100%;
+padding-top: 5px;
 }
 ul{
-    justify-content: center;
+justify-content: center;
 }
 li{
-    display: inline;
-    color: white;
-    margin-left: 15px;
+display: inline;
+color: white;
+margin-left: 15px;
 }
 .header,.menu{
-    display: flex;
+display: flex;
 }
 .menu{
-    margin-left: 20%;
-    padding-top: 20px; 
+margin-left: 20%;
+padding-top: 20px; 
 }
 .btn{
-    padding-top: 10px;
-    margin-left: 30px;
-    
+padding-top: 10px;
+margin-left: 30px;
+
 }
 .b1,.b2{
-    padding: 20px;
-    border-radius: 30px;
-    border: 1px solid white;
+padding: 20px;
+border-radius: 30px;
+border: 1px solid white;
 }
 .b1{
-    background-color: transparent;
-    color: white;
-    margin-right: 20px;
+background-color: transparent;
+color: white;
+margin-right: 20px;
 }
 .b2{
-    background-color: red;
-    color: white;
-    border-color: red;
+background-color: red;
+color: white;
+border-color: red;
 
 }
 i{
-    background-color: white;
-    color: red;
-    border-radius: 50%;
-    padding: 3px;
-    margin-left: 5px;
+background-color: white;
+color: red;
+border-radius: 50%;
+padding: 3px;
+margin-left: 5px;
 }
 .img1{
-    margin-left: 0px;
-    width: 100%;
-    height: auto;
-    margin-top: -5px;
+margin-left: 0px;
+width: 100%;
+height: auto;
+margin-top: -5px;
 }
 .brands{
-    background-color: black;
-    width:100%;
-    height: 100
-    vh;
-    color: white;
-    text-align: center;
-    margin-top: -20px;
-    padding-top: 100px;
-   
+background-color: black;
+width:100%;
+height: 100
+vh;
+color: white;
+text-align: center;
+margin-top: -20px;
+padding-top: 100px;
+
 }
 .p{
- 
-    font-size: 60px;
-    font-family: futurak;
-    margin-top: 1px;
+
+font-size: 60px;
+font-family: futurak;
+margin-top: 1px;
 }
 .p1{
-    font-size: 45px;
-    margin-top: -60px;
+font-size: 45px;
+margin-top: -60px;
 
 }
 .para{
-    font-size: 20px;
-    margin-top: -30px;
-    color: rgba(255, 255, 255, 0.7);
+font-size: 20px;
+margin-top: -30px;
+color: rgba(255, 255, 255, 0.7);
 
 }
- .gallery{
-    height: 344px;
-    width: 100%;
-     display: flex;
-    justify-content: center;
-    align-items: center;
- }
+.gallery{
+height: 344px;
+width: 100%;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
 
- .pannel-img{
-    height: 322px;
-    width: 100%;
-    display: flex;
-    justify-content: center; 
- }
- #pic{
-    height: 150px;
-    width: 280px;
-   background-repeat:no-repeat ;
-   background-position: center;
-   background-color: #ffffff;
-   margin-left: 20px;
-   border-radius: 5px;
-   
-  
- }
- #abc{
-    width: 100%;
-    width: 100%;
-    
- }
+.pannel-img{
+height: 322px;
+width: 100%;
+display: flex;
+justify-content: center; 
+}
+#pic{
+height: 150px;
+width: 280px;
+background-repeat:no-repeat ;
+background-position: center;
+background-color: #ffffff;
+margin-left: 20px;
+border-radius: 5px;
+
+
+}
+#abc{
+width: 100%;
+width: 100%;
+
+}
 .bg-button{
-  height: 50px;
-  width: 150px;
-  background-color:transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  margin-top:170px;
-  border-radius: 20px;
-  color: #ffffff;
- }
- .franchises{
-      height: 300vh;
-      width: 100%;
-     background-color: #18191c;
-     margin-top: -55px;
-      
-      
- }
- #franchises-heading{
-    height: 198px ;
-    width: 100%;
-   font-style: normal;
-    font-weight: 400;
-    font-size: 52px;
-    line-height: 62px;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top:90px;
-    font-family: 'Holtwood One SC';    ;
- }
- .franchises-gellary,.franchises-gellary1,.franchises-gellary3{
-    height: 394px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    
-   
- }
- #picss,#picss1{
-    height:100%;
-    width: 36%;
-    margin-left: 200px;
-    border-radius: 5px;
-    
- }
- small{
-        font-family: 'apercu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.48em;
-        text-transform: uppercase;
-        color: #ED1C24;
-        margin-bottom: 8px;
-        display: block;
-        margin-top: 10px;
-    
- }
-
- #h3-franchises{
-    font-family: 'Holtwood One SC';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 29px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 0px;
- }
-
- #icon, p{
-    font-size: 20px;
-    margin-top: -30px;
-    color: rgba(242, 241, 241, 0.7);
-    background-color: transparent;
-    padding-top: 30px;
- }
- .franchises-express{
-    height: 350vh;
-    width: 100%;
-    background-color: #000000;
-    margin-top: -30px;
-    display: flex;
-    justify-content: center;
-   flex-direction: column;
- }
- .express-container{
-     height: 98%;
-     width: 100%;
-  }
- #express-heading{
-    height: 170px;
-    width: 100%;
-     display: flex;
-    justify-content: center;
-     
- }
- #express-span{
-    font-size: 52px;
-    color: #ffffff;
-    height: 32px;
-   margin-bottom: 20px;
-   font-family: 'Holtwood One SC';
+height: 50px;
+width: 150px;
+background-color:transparent;
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin-top:170px;
+border-radius: 20px;
+color: #ffffff;
+}
+.franchises{
+  height: 300vh;
+  width: 100%;
+ background-color: #18191c;
+ margin-top: -55px;
   
- }
- #express-header{
-      
-     text-align: center;
-     font-family:Arial, Helvetica, sans-serif;
+  
+}
+#franchises-heading{
+height: 198px ;
+width: 100%;
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 62px;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top:90px;
+font-family: 'Holtwood One SC';    ;
+}
+.franchises-gellary,.franchises-gellary1,.franchises-gellary3{
+height: 394px;
+width: 100%;
+display: flex;
+flex-direction: row;
+
+
+}
+#picss,#picss1{
+height:100%;
+width: 36%;
+margin-left: 200px;
+border-radius: 5px;
+
+}
+small{
+    font-family: 'apercu';
     font-style: normal;
-    font-size: 48px;
-    line-height: 60px;
-    color: #FFFFFF;
-    font-weight: normal;
- }
- .express-pics{
-    height: 98%;
-    width: 100%;
-    background-color: #000000;
- }
-#imagesss{
- height: 100vh;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+#h3-franchises{
+font-family: 'Holtwood One SC';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 0px;
+}
+
+#icon, p{
+font-size: 20px;
+margin-top: -30px;
+color: rgba(242, 241, 241, 0.7);
+background-color: transparent;
+padding-top: 30px;
+}
+.franchises-express{
+height: 350vh;
+width: 100%;
+background-color: #000000;
+margin-top: -30px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.express-container{
+ height: 98%;
  width: 100%;
+}
+#express-heading{
+height: 170px;
+width: 100%;
+ display: flex;
+justify-content: center;
  
- 
+}
+#express-span{
+font-size: 52px;
+color: #ffffff;
+height: 32px;
+margin-bottom: 20px;
+font-family: 'Holtwood One SC';
+
+}
+#express-header{
+  
+ text-align: center;
+ font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size: 48px;
+line-height: 60px;
+color: #FFFFFF;
+font-weight: normal;
+}
+.express-pics{
+height: 98%;
+width: 100%;
+background-color: #000000;
+}
+#imagesss{
+height: 100vh;
+width: 100%;
+
+
 }
 #shops{
-    height: 98%;
-    width: 100%;
-    margin: 0px 40px;
- }
+height: 98%;
+width: 100%;
+margin: 0px 40px;
+}
 #img-shops{
-    height: 55% ;
-    width: 100%;
-    margin-left: 0px;
+height: 55% ;
+width: 100%;
+margin-left: 0px;
 
-    
+
 }
 .button-b{
-     background-color: transparent;
-     border: 1px solid rgba(255, 255, 255, 0.3);
-     font-size: 15px;
-     height: 50px;  
-     width: 170px; 
-    border-radius: 20px;
-    color: #ffffff;
-    padding-left: -5px;
-    margin-left: 50px;
-    margin-top: 10px;
+ background-color: transparent;
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ font-size: 15px;
+ height: 50px;  
+ width: 170px; 
+border-radius: 20px;
+color: #ffffff;
+padding-left: -5px;
+margin-left: 50px;
+margin-top: 10px;
 }
 #img-shopss{
-    height: 50% ;
-    width:70%;
-    margin-left: 0px;
+height: 50% ;
+width:70%;
+margin-left: 0px;
 
-    
+
 }
 .village-franchies{
-    height: 532px;
-    width: 100%;
-    background-color:#212529;
-    margin-top: -20px;
+height: 532px;
+width: 100%;
+background-color:#212529;
+margin-top: -20px;
 }
 .village-gellary{
-    height: 65%;
-    width: 98%;
-    display: flex;
+height: 65%;
+width: 98%;
+display: flex;
 }
 #village-pic,#village-info{
 height: 90%;
 width: 98%;
- margin: 10px;
- 
+margin: 10px;
+
+
 }
 #village-pic{
-    background-image: url(15.jpg);
-    background-size: cover;
+background-image: url(./images/15.jpg);
+background-size: cover;
 }
 .location-pannel{
-    height: 200vh;
-    width: 100%;
-    background-color: #000000;
+height: 200vh;
+width: 100%;
+background-color: #000000;
 }
 .location-heading-pannel{
- height : 200px;
- width: 100%;
-  
+height : 200px;
+width: 100%;
+
 }
 #comingsoon{
-    font-style: normal;
-    font-size: 21px;
-     
-    color: #FFFFFF;
-    display: inline-block;
+font-style: normal;
+font-size: 21px;
+ 
+color: #FFFFFF;
+display: inline-block;
 }
 .locations-info{
-    height: 1000px;
-    width: 100%;
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+height: 1000px;
+width: 100%;
+ display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 
 }
 .boxcards{
-    height: 30%;
-    width: 28%;
-    background-color: #ffffff;
-    border: 1px solid white;
-    border-radius: 4px;
-    text-align: center;
-    transition: height 0.3s ease, width 0.3s ease;
-     
+height: 30%;
+width: 28%;
+background-color: #ffffff;
+border: 1px solid white;
+border-radius: 4px;
+text-align: center;
+
+ 
 
 }
- .boxcards:hover {
-    height: 32%;
-    width: 30%;
-    animation: slideAnimation 2s ease-in infinite;
+.boxcards:hover {
+height: 32%;
+width: 30%;
+animation: slideAnimation 2s ease-in infinite;
 }
 @keyframes slideAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(100%);
-    }
+0% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(100%);
+}
 }
 
- #location-img{
-    margin-left: 0px;
-    height: auto;
-    width: auto;
-    margin-top: 20px; 
+#location-img{
+margin-left: 0px;
+height: auto;
+width: auto;
+margin-top: 20px; 
 
 }
 .box-small{
-    font-style: normal;
-    font-weight: 500px;
-    font-size: 10px;
-     line-height: 10px;
-     letter-spacing: 0.48rem;
-     text-transform: capitalize;
-     color: #ED1C24;
-     margin-bottom: 8px;
-    display: inline-block;
+font-style: normal;
+font-weight: 500px;
+font-size: 10px;
+ line-height: 10px;
+ letter-spacing: 0.48rem;
+ text-transform: capitalize;
+ color: #ED1C24;
+ margin-bottom: 8px;
+display: inline-block;
 }
 #h4-box{
-    height: 50px;
-    font-display: normal;
-    font-weight: 400;
-    font-size: 21px;
-    margin-top: 12px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 10px;
-   
+height: 50px;
+font-display: normal;
+font-weight: 400;
+font-size: 21px;
+margin-top: 12px;
+text-align: center;
+color: #000000;
+margin-bottom: 10px;
+
 }
 #box-span{
- font-weight: 600;
- font-size: 24px;
- margin-top: 10px;
-  
-  
+font-weight: 600;
+font-size: 24px;
+margin-top: 10px;
+
+
 }
 #para-box{
-       height: 29px;
-       font-style: normal;
-       font-weight: 400;
-       font-size: 21px;
-       line-height: 29px;
-       color: #000000;
-        
+   height: 29px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 29px;
+   color: #000000;
+    
 }
 #h4-city{
-    height: 32px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 30px;
-    color: #000000;
-    margin-top: -20px;
+height: 32px;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+color: #000000;
+margin-top: -20px;
 }
 .social-feed{
-    height: 390px;
-    width: 100%;
-    background-color: #000000;
+height: 390px;
+width: 100%;
+background-color: #000000;
 }
 .social-heading{
-    height: 73px ;
-    width: 100%;
-     display: flex;
-    justify-content: center;
-    padding-bottom: 32px;
+height: 73px ;
+width: 100%;
+ display: flex;
+justify-content: center;
+padding-bottom: 32px;
 }
 #h3-social{
 height: 53px;
@@ -423,86 +424,86 @@ font-size: 35px;
 color:#212529;
 }
 .social-gellary{
-  height: 60%;
-  width: 100%;
- display: flex;
-  
+height: 60%;
+width: 100%;
+display: flex;
+
 }
 .images{
-    height: 100%;
-    width: 80%;
-    margin-left: 10px;  
-    
+height: 100%;
+width: 80%;
+margin-left: 10px;  
+
 }
 #social-img{
-    height: 100%;
-    width: 90%;
-    margin-left: 0px;
-    margin-top: -5px;
+height: 100%;
+width: 90%;
+margin-left: 0px;
+margin-top: -5px;
 }
 #social-img:hover{
-     
-    margin-top: -90px;
+ 
+margin-top: -90px;
 }
 .footerr{
-    height: 100vh;
-    width: 100%;
-    background-color: #191919;
-    display: flex;
+height: 100vh;
+width: 100%;
+background-color: #191919;
+display: flex;
 }
 #footer-section-1{
 height: 100% ;
 width: 30%;
- 
+
 }
 
 #footer-logo{
-    height: 64px ;
-    width: 140px;
-    margin-left: 0px;
-    margin: 50px 0px 0px 50px;
-  }
- #footer-li{
- margin-left: 28px;
- display: inline-block;
- color: rgba(255, 255, 255, 0.7);
- font-size: 15px;
- }
+height: 64px ;
+width: 140px;
+margin-left: 0px;
+margin: 50px 0px 0px 50px;
+}
+#footer-li{
+margin-left: 28px;
+display: inline-block;
+color: rgba(255, 255, 255, 0.7);
+font-size: 15px;
+}
 
 #footer-section-2{
 height: 100% ;
 width: 20%;
- 
+
 }
 
 #box-heading{
-  height: 43px; 
-  width: 100%; 
-  position: relative;
-  
+height: 43px; 
+width: 100%; 
+position: relative;
+
 }
 
 #box-heading>h3{
-    margin: 50px 0px 0px 50px;
-    margin-bottom: 0px !important;
-    font-style: normal;
-    font-weight: 700;
-    font-size:20px;
-    line-height: 19px;
-    color: #FFFFFF;
+margin: 50px 0px 0px 50px;
+margin-bottom: 0px !important;
+font-style: normal;
+font-weight: 700;
+font-size:20px;
+line-height: 19px;
+color: #FFFFFF;
 }
 
 #content-footer{
-   height: 180px ; 
-   width: 100%;
-   margin-top: -30px;
+height: 180px ; 
+width: 100%;
+margin-top: -30px;
 }
 
 #footer-list{
-   margin-top: 20px;
-   text-decoration: none;
-   display: flex;
-   flex-direction: column;
+margin-top: 20px;
+text-decoration: none;
+display: flex;
+flex-direction: column;
 }
 #footer-list>a{
 text-decoration: none;
@@ -517,72 +518,72 @@ color: rgba(255, 255, 255, 0.7) !important;
 #footer-section-3{
 height: 100% ;
 width: 25%;
- 
+
 }
 
 #contact-us-box{
-   height: 60%;
-   width: 100%;
-    margin-top: -20px;
+height: 60%;
+width: 100%;
+margin-top: -20px;
 }
 
 #contact-us-box>ul{
-    list-style: none;
-    display: flex;
-    margin-left: 0px;
-    flex-direction: column;
-    padding-left: 0px ;
+list-style: none;
+display: flex;
+margin-left: 0px;
+flex-direction: column;
+padding-left: 0px ;
 }
 
 #contact-list{
-    margin-bottom: 0px !important;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 19px;
-    color: #FFFFFF;
-    
+margin-bottom: 0px !important;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+color: #FFFFFF;
+
 }
 
 #contact-list-1>p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.7) !important;
-     
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.7) !important;
+ 
 }
 
 #footer-section-4{
 height: 100% ;
 width: 25%;
- 
+
 }
 
 #spcial-pannel{
 height: 40px;
 display: flex;
- align-items: center;
- margin-bottom: 24px;
- margin-left: 30px;
+align-items: center;
+margin-bottom: 24px;
+margin-left: 30px;
 }
 #social-id{
-    display: flex;
-    align-items: center;
-    margin-right: 8px;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: #ED1C24;
-    color: #fff;
-    border-radius: 50px
+display: flex;
+align-items: center;
+margin-right: 8px;
+justify-content: center;
+width: 40px;
+height: 40px;
+background: #ED1C24;
+color: #fff;
+border-radius: 50px
 }
 #social-google{
-    height: 44px;
-    width: 141px ;
-    margin-left: 0px;
-    display: block;
-    margin-top: 20px;
-    margin-left: 40px;
+height: 44px;
+width: 141px ;
+margin-left: 0px;
+display: block;
+margin-top: 20px;
+margin-left: 40px;
 }
