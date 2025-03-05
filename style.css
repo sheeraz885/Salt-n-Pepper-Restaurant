@@ -587,3 +587,241 @@ display: block;
 margin-top: 20px;
 margin-left: 40px;
 }
+
+/* Media Queries for Responsive Design */
+
+/* For devices with a maximum width of 1200px (e.g., small laptops) */
+@media only screen and (max-width: 1200px) {
+    .header {
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu {
+        margin-left: 10%;
+    }
+
+    .btn {
+        margin-left: 10px;
+    }
+
+    .brands {
+        padding-top: 50px;
+    }
+
+    .franchises-gellary, .franchises-gellary1, .franchises-gellary3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #picss {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .express-pics {
+        height: auto;
+    }
+
+    #imagesss {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #shops {
+        margin: 20px 0;
+    }
+
+    .village-gellary {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .locations-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxcards {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .social-gellary {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images {
+        margin: 10px 0;
+    }
+
+    .footerr {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #footer-section-1, #footer-section-2, #footer-section-3, #footer-section-4 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* For devices with a maximum width of 768px (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    .btn {
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    .brands {
+        padding-top: 30px;
+    }
+
+    .p {
+        font-size: 40px;
+    }
+
+    .p1 {
+        font-size: 30px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+
+    .franchises {
+        height: auto;
+    }
+
+    #franchises-heading {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .express-container {
+        height: auto;
+    }
+
+    #express-header {
+        font-size: 36px;
+    }
+
+    .village-franchies {
+        height: auto;
+    }
+
+    .location-pannel {
+        height: auto;
+    }
+
+    .boxcards {
+        width: 90%;
+    }
+
+    .social-feed {
+        height: auto;
+    }
+
+    .footerr {
+        height: auto;
+    }
+
+    #footer-section-1, #footer-section-2, #footer-section-3, #footer-section-4 {
+        width: 90%;
+    }
+}
+
+/* For devices with a maximum width of 480px (e.g., mobile phones) */
+@media only screen and (max-width: 480px) {
+    .header {
+        height: auto;
+        padding: 5px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b1, .b2 {
+        margin: 5px 0;
+    }
+
+    .brands {
+        padding-top: 20px;
+    }
+
+    .p {
+        font-size: 30px;
+    }
+
+    .p1 {
+        font-size: 24px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    .franchises {
+        height: auto;
+    }
+
+    #franchises-heading {
+        font-size: 32px;
+        padding-top: 30px;
+    }
+
+    .express-container {
+        height: auto;
+    }
+
+    #express-header {
+        font-size: 28px;
+    }
+
+    .village-franchies {
+        height: auto;
+    }
+
+    .location-pannel {
+        height: auto;
+    }
+
+    .boxcards {
+        width: 95%;
+    }
+
+    .social-feed {
+        height: auto;
+    }
+
+    .footerr {
+        height: auto;
+    }
+
+    #footer-section-1, #footer-section-2, #footer-section-3, #footer-section-4 {
+        width: 95%;
+    }
+}
